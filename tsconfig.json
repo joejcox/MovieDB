@@ -4,10 +4,10 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": "src",
     "paths": {
-      "app/*": ["./app"],
-      "components/*": ["./components/*"],
-      "helpers/*": ["./helpers/*"],
-      "api/*": ["./api/*"]
+      "app": ["app"],
+      "components": ["components"],
+      "helpers": ["helpers"],
+      "api": ["api"]
     },
     "allowJs": true,
     "skipLibCheck": true,
